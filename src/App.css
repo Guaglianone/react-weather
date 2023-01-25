@@ -1,0 +1,45 @@
+.App {
+  background-color: #202837;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 600px;
+  height: 80vh;
+  padding: 1rem;
+  border-radius: 10px;
+  background-image: url("./images/bg-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mask {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.header {
+  padding: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.input,
+.input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
